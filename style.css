@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Questrial");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
 
 body {
     display:grid;
@@ -14,13 +15,20 @@ body {
     padding: 1em 0;
 }
 
-profile, 
-main {
+profile,main {
     color:#FFF;
     background:#000;
     display:flex;
-    align-items:center;
     height:500px;
+}
+
+profile {
+    align-items:center;
+}
+
+main {
+    align-items:top;
+    font-family:"Poppins",sans-serif;
 }
 
 div.pfp {
@@ -28,7 +36,8 @@ div.pfp {
     display: inline-block;
     text-align: left;
     width:100%;
-    padding-left:15%;
+    position:fixed;
+    left:15%;
 }
 
 .caption {
@@ -46,4 +55,31 @@ div.space {
     text-align:left;
     font-size:14px;
     padding-bottom:5px;
+}
+
+.box {
+    width:75%;
+}
+
+.projects {
+    top: 150px;
+    position:absolute;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(238, 238, 238, 0.61);
+    transition:0.3s;
+    cursor:pointer;
+    width:204px;
+    float:left;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+.card:hover {
+    box-shadow:0 8px 16px 0 rgba(243, 241, 241, 0.815);
+}
+
+.container {
+    padding: 2px 16px;
 }
