@@ -74,6 +74,7 @@ div.space {
     float:left;
     margin-right:20px;
     margin-bottom:20px;
+    position:relative;
 }
 
 .card:hover {
@@ -82,4 +83,27 @@ div.space {
 
 .container {
     padding: 2px 16px;
+    position:absolute;
+    width:200px;
+    top:75px;
+}
+
+a{
+    color:white;
+}
+
+a:link {
+    text-decoration:none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
 }
