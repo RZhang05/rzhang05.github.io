@@ -12,7 +12,7 @@ body {
 body {
     margin: 0 auto;
     max-width: 56em;
-    padding: 1em 0;
+    padding: 1em 5em;
 }
 
 profile,main {
@@ -64,6 +64,7 @@ div.space {
 .projects {
     top: 150px;
     position:absolute;
+    width:700px;
 }
 
 .card{
@@ -106,4 +107,9 @@ a:hover {
 
 a:active {
     text-decoration: underline;
+}
+
+.images {
+    top: 670px;
+    position:absolute;
 }
