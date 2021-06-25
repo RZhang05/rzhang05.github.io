@@ -2,11 +2,19 @@
     display: block;
     margin-left: calc(25% + 2vh);
     height: 92vh;
-    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 5vh;
     padding-left: 5vh;
     padding-right: 5vh;
+    position: relative;
+}
+
+@media (max-width: 300px), (max-height: 500px) {
+    .right-content {
+        display: none;
+    }
 }
 
 .right-content .header {

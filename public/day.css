@@ -1,35 +1,71 @@
 .left-bar {
     background-color: #f8f8ff;
+    transition: all 0.50s linear;
 }
 
 .left-bar .image-container {
     background-color: #f1f1ff;
     border: 2px solid #FFF;
+    transition: all 0.50s linear;
 }
 
 .left-bar .info-box {
     background-color: #f1f1ff;
     border: 2px solid #FFF;
+    transition: all 0.50s linear;
 }
 
 .left-bar .info-box .label {
-    background-color: #FFF;  
+    background-color: #FFF;
+    color: #000;
+    transition: all 0.50s linear;
 }
 
 .left-bar .info-box .label:first-child {
     background-color: #b19cd9;
     color: #FFF;
+    transition: all 0.50s linear;
 }
 
 .right-content {
     background-color: #f8f8ff;
+    color: #000;
+    transition: all 0.50s linear;
 }
 
 .right-content .container .project {
     background-color: #f1f1ff;
     border: 2px solid #FFF;
+    transition: all 0.50s linear;
+}
+
+.right-content .project .project-info .title {
+    color: #b19cd9;
 }
 
 .right-content .header {
     color: #b19cd9;
+    transition: all 0.50s linear;
+}
+
+.left-bar .info-box .label a:visited {
+    color: #000;
+    transition: all 0.50s linear;
+}
+
+.right-content a {
+    color: #b19cd9;
+    transition: all 0.50s linear;
+}
+
+.right-content a:visited {
+    color: #b19cd9;
+    transition: all 0.50s linear;
+}
+
+.right-content button {
+    background-color: #f1f1ff;
+    border: 2px solid #FFF;
+    color: #000;
+    transition: all 0.50s linear;
 }

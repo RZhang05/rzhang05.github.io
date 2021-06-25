@@ -1,22 +1,71 @@
 .left-bar {
-    background-color: #f8f8ff;
+    background-color: #141d26;
+    transition: all 0.50s linear;
 }
 
 .left-bar .image-container {
-    background-color: #f1f1ff;
-    border: 2px solid #FFF;
+    background-color: #243447;
+    border: 2px solid #000;
+    transition: all 0.50s linear;
 }
 
 .left-bar .info-box {
-    background-color: #f1f1ff;
-    border: 2px solid #FFF;
+    background-color: #243447;
+    border: 2px solid #000;
+    transition: all 0.50s linear;
 }
 
 .left-bar .info-box .label {
-    background-color: #FFF;  
+    background-color: #000;
+    color: #FFF;
+    transition: all 0.50s linear;
 }
 
 .left-bar .info-box .label:first-child {
-    background-color: #b19cd9;
+    background-color: #FF7F7F;
     color: #FFF;
+    transition: all 0.50s linear;
+}
+
+.right-content {
+    background-color: #141d26;
+    color: #FFF;
+    transition: all 0.50s linear;
+}
+
+.right-content .container .project {
+    background-color: #243447;
+    border: 2px solid #000;
+    transition: all 0.50s linear;
+}
+
+.right-content .project .project-info .title {
+    color: #FF7F7F;
+}
+
+.right-content .header {
+    color: #FF7F7F;
+    transition: all 0.50s linear;
+}
+
+.left-bar .info-box .label a:visited {
+    color: #FFF;
+    transition: all 0.50s linear;
+}
+
+.right-content a {
+    color: #FF7F7F;
+    transition: all 0.50s linear;
+}
+
+.right-content a:visited {
+    color: #FF7F7F;
+    transition: all 0.50s linear;
+}
+
+.right-content button {
+    background-color: #243447;
+    border: 2px solid #000;
+    color: #FFF;
+    transition: all 0.50s linear;
 }

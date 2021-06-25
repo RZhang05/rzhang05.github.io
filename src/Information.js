@@ -10,14 +10,16 @@ const info = [
 ]
 
 const Information = () => {
+    let key = 0;
+
     return (
         <div className="info-box">
             <Label text={"Raymond Zhang"} font_size={"2vw"} />
             {
                 info.map((text) => {
                     return (text.includes("https://") ? 
-                    <Label text={text} font_size={"0.8vw"} link={true} /> : 
-                    <Label text={text} font_size={"0.8vw"} link={false} />)
+                    <Label key={key++} text={text} font_size={"0.8vw"} link={true} /> : 
+                    <Label key={key++} text={text} font_size={"0.8vw"} link={false} />)
                 })
             }
         </div>

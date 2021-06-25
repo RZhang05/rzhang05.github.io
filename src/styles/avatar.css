@@ -1,18 +1,17 @@
 .left-bar .image-container {
     width: max(12.5vw, 12.5vh);
     height: max(12.5vw, 12.5vh);
-    display: block;
-    margin-top: 10vh;
+    display: flex;
+    margin-top: 15vh;
     margin-left: auto;
     margin-right: auto;
     border-radius: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-bar .image-container img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
     width: 90%;
     height: 90%;    
 }

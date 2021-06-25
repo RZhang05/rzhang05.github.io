@@ -7,14 +7,15 @@ const Project = ({ project }) => {
         <div className="project">
             <div className="project-info">
                 <div className="title">
-                    {project.title}
+                    <a href={project.link}>{project.title}</a>
                 </div>
                 <div className="tech">
                     {project.tech}
                 </div>
             </div>
             <div className="project-desc">
-                hello
+                {(project.image && <img src={project.image} />)}
+                {project.description}
             </div>
         </div>
     )

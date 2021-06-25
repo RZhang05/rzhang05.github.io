@@ -2,24 +2,31 @@
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 26vw;
     border-radius: 5px;
     margin-bottom: 10px;
-}
-
-.project .project-info {
-    position: relative;
+    margin-right: 20px;
+    overflow: hidden;
 }
 
 .project .project-info .title {
     display:inline-block;
     font-size: 4vh;
     line-height: 5vh;
+    padding-right: 10px;
 }
 
 .project .project-info .tech {
     display:inline-block;
-    position: absolute;
-    right: 10px;
+    line-height: 5vh;
+    padding-right: 10px;
+}
+
+.project .project-desc img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 33vh;
+    width: auto;
 }

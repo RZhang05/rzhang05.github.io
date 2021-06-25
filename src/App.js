@@ -6,6 +6,8 @@ function App() {
   const [nightmode, changeMode] = useState(false);
 
   const handleButtonPress = () => {
+    if(nightmode) document.body.style = "background-color: #FFF";
+    else document.body.style = "background-color: #000";
     changeMode(!nightmode);
   }
 
@@ -13,7 +15,7 @@ function App() {
     <div>
       <link rel="stylesheet" type="text/css" href={process.env.PUBLIC_URL + (nightmode ?  "/night.css" : "/day.css")} />
       <Profile />
-      <Main />
+      <Main handlePress={handleButtonPress} />
     </div>
   );
 }
