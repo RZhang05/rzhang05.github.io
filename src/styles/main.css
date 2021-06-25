@@ -1,0 +1,29 @@
+.right-content {
+    display: block;
+    margin-left: calc(25% + 2vh);
+    height: 92vh;
+    overflow: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 5vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
+}
+
+.right-content .header {
+    font-size: 10vh;
+    line-height: 10vh;
+    margin-bottom: 10px;
+}
+
+.right-content .subheader {
+    font-size: 7vh;
+    line-height: 7vh;
+    margin-bottom: 10px;
+    margin-top: 3vh;
+}
+
+.right-content .bio {
+    font-size: 3vh;
+    line-height: 4vh;
+    margin-bottom: 10px;
+}

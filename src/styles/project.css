@@ -1,0 +1,25 @@
+.project {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.project .project-info {
+    position: relative;
+}
+
+.project .project-info .title {
+    display:inline-block;
+    font-size: 4vh;
+    line-height: 5vh;
+}
+
+.project .project-info .tech {
+    display:inline-block;
+    position: absolute;
+    right: 10px;
+}

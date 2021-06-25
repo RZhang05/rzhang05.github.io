@@ -1,0 +1,25 @@
+.left-bar .info-box .label {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;  
+    width: 90%;
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 30px;  
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.left-bar .info-box .label a {
+    text-decoration: none;
+}
+
+.left-bar .info-box .label:last-child {
+    margin-bottom: 10px;
+}
+
+.left-bar .info-box .label:first-child {
+    height: 50px;  
+    line-height: 50px;
+}

@@ -1,0 +1,8 @@
+.left-bar {
+    display: block;
+    width: 25%;
+    height: 97vh;
+    margin: 0;
+    overflow: hidden;
+    float: left;
+}

@@ -1,0 +1,22 @@
+.left-bar {
+    background-color: #f8f8ff;
+}
+
+.left-bar .image-container {
+    background-color: #f1f1ff;
+    border: 2px solid #FFF;
+}
+
+.left-bar .info-box {
+    background-color: #f1f1ff;
+    border: 2px solid #FFF;
+}
+
+.left-bar .info-box .label {
+    background-color: #FFF;  
+}
+
+.left-bar .info-box .label:first-child {
+    background-color: #b19cd9;
+    color: #FFF;
+}
