@@ -14,7 +14,7 @@ const Project = ({ project }) => {
                 </div>
             </div>
             <div className="project-desc">
-                {(project.image && <img src={project.image} />)}
+                {(project.image && <img src={project.image} alt="Project Image" />)}
                 {project.description}
             </div>
         </div>

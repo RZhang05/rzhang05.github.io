@@ -3,6 +3,7 @@ import "./styles/main.css";
 import PropTypes from "prop-types";
 import ProjectContainer from "./ProjectContainer";
 import Toggle from "./Toggle";
+import resume from "./resources/ResumeCC++Java.pdf";
 import transcript from "./resources/SSR_TSRPT.pdf";
 import aicert from "./resources/AiCert.pdf";
 import azurecert from "./resources/AzureCert.pdf";
@@ -22,7 +23,7 @@ const Main = ({ handlePress }) => {
             <div className="subheader">Projects</div>
             <ProjectContainer />
             <div className="subheader">Documents</div>
-            <a href={transcript} style={{display:"block", marginBottom:"10px"}} download="transcript">Download Resume (not existent)</a>
+            <a href={resume} style={{display:"block", marginBottom:"10px"}} download="resume">Download Resume</a>
             <a href={transcript} style={{display:"block", marginBottom:"10px"}} download="transcript">Download Academic Transcript</a>
             <a href={azurecert} style={{display:"block", marginBottom:"10px"}} download="azurecert">Download Microsoft Azure Fundamentals Certification Proof</a>
             <a href={aicert} style={{display:"block", marginBottom:"10px"}} download="aicert">Download Microsoft Azure AI Fundamentals Certification Proof</a>

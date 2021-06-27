@@ -1,9 +1,9 @@
 import React from "react";
 import Project from "./Project";
 import "./styles/container.css";
-import twotter from "./resources/twotterbird.png";
+import twotter from "./resources/Twotter-logo.png";
 import moodle from "./resources/moodlehomepage.png";
-import example from "./resources/blobfacepalm.png";
+import example from "./resources/github.png";
 
 const projects = [
     {
@@ -11,21 +11,21 @@ const projects = [
         "link": "https://github.com/SlowestLoris/Twotter",
         "tech": "Django, Python, HTML, CSS, JS",
         "image": twotter,
-        "description": "A functional clone of Twitter."
+        "description": "Twotter is designed to be a functional Twitter clone, complete with user profiles, tweets (twoots) and private chat."
     },
     {
-        "title": "Learn 2.0",
+        "title": " (In progress)",
         "link": "https://github.com/q-ata/alpha-beaver",
         "tech": "MERN, HTML, CSS, JS",
         "image": moodle,
-        "description": "An innovative LMS."
+        "description": "A complete Learning Management System currently under construction."
     },
     {
-        "title": "Example",
-        "link": "https://github.com/q-ata/alpha-beaver",
-        "tech": "Buncha stuff",
+        "title": "ElectionForm",
+        "link": "https://github.com/SlowestLoris/ElectionForm",
+        "tech": "JS, Google Apps Script",
         "image": example,
-        "description": "An amazing thingy."
+        "description": "Script to automate form creation and result collection for an election."
     }
 ];
 
@@ -37,6 +37,7 @@ const Container = () => {
             { projects.map((project) => {
                 return <Project key={key++} project={project} />
             })}
+            <div style={{fontSize:"3vh"}}>To see more, check out my github!</div>
         </div>
     )
 };
