@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.cefa164e.chunk.css",
-    "main.js": "/static/js/main.00d3e9c2.chunk.js",
-    "main.js.map": "/static/js/main.00d3e9c2.chunk.js.map",
+    "main.css": "/static/css/main.f02f35f0.chunk.css",
+    "main.js": "/static/js/main.a02facd1.chunk.js",
+    "main.js.map": "/static/js/main.a02facd1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.823c2495.js",
     "runtime-main.js.map": "/static/js/runtime-main.823c2495.js.map",
     "static/js/2.fbabd803.chunk.js": "/static/js/2.fbabd803.chunk.js",
@@ -10,21 +10,21 @@
     "static/js/3.9ed9a562.chunk.js": "/static/js/3.9ed9a562.chunk.js",
     "static/js/3.9ed9a562.chunk.js.map": "/static/js/3.9ed9a562.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.cefa164e.chunk.css.map": "/static/css/main.cefa164e.chunk.css.map",
+    "static/css/main.f02f35f0.chunk.css.map": "/static/css/main.f02f35f0.chunk.css.map",
     "static/js/2.fbabd803.chunk.js.LICENSE.txt": "/static/js/2.fbabd803.chunk.js.LICENSE.txt",
     "static/media/AiCert.096f2a26.pdf": "/static/media/AiCert.096f2a26.pdf",
     "static/media/AzureCert.d48e6ff7.pdf": "/static/media/AzureCert.d48e6ff7.pdf",
     "static/media/ResumeCC++Java.0ab7f240.pdf": "/static/media/ResumeCC++Java.0ab7f240.pdf",
     "static/media/SSR_TSRPT.7180776b.pdf": "/static/media/SSR_TSRPT.7180776b.pdf",
     "static/media/Twotter-logo.e5bea932.png": "/static/media/Twotter-logo.e5bea932.png",
+    "static/media/ab.f5a876a3.png": "/static/media/ab.f5a876a3.png",
     "static/media/github.4c3b0f02.png": "/static/media/github.4c3b0f02.png",
-    "static/media/moodlehomepage.af122c34.png": "/static/media/moodlehomepage.af122c34.png",
     "static/media/slow loris.44c43022.png": "/static/media/slow loris.44c43022.png"
   },
   "entrypoints": [
     "static/js/runtime-main.823c2495.js",
     "static/js/2.fbabd803.chunk.js",
-    "static/css/main.cefa164e.chunk.css",
-    "static/js/main.00d3e9c2.chunk.js"
+    "static/css/main.f02f35f0.chunk.css",
+    "static/js/main.a02facd1.chunk.js"
   ]
 }
