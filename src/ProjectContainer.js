@@ -2,7 +2,7 @@ import React from "react";
 import Project from "./Project";
 import "./styles/container.css";
 import twotter from "./resources/Twotter-logo.png";
-import moodle from "./resources/moodlehomepage.png";
+import moodle from "./resources/ab.png";
 import example from "./resources/github.png";
 
 const projects = [
@@ -14,11 +14,11 @@ const projects = [
         "description": "Twotter is designed to be a functional Twitter clone, complete with user profiles, tweets (twoots) and private chat."
     },
     {
-        "title": " (In progress)",
+        "title": "Alpha-beaver",
         "link": "https://github.com/q-ata/alpha-beaver",
         "tech": "MERN, HTML, CSS, JS",
         "image": moodle,
-        "description": "A complete Learning Management System currently under construction."
+        "description": "A learning management system built with the MERN stack."
     },
     {
         "title": "ElectionForm",
