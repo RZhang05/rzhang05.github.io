@@ -3,7 +3,7 @@ import "./styles/main.css";
 import PropTypes from "prop-types";
 import ProjectContainer from "./ProjectContainer";
 import Toggle from "./Toggle";
-import resume from "./resources/ResumeCC++Java.pdf";
+import resume from "./resources/resume2021-1.pdf";
 import transcript from "./resources/SSR_TSRPT.pdf";
 import aicert from "./resources/AiCert.pdf";
 import azurecert from "./resources/AzureCert.pdf";
