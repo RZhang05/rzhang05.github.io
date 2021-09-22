@@ -4,8 +4,16 @@ import "./styles/container.css";
 import twotter from "./resources/Twotter-logo.png";
 import moodle from "./resources/ab.png";
 import example from "./resources/github.png";
+import dj from "./resources/dailyjourney.jpg";
 
 const projects = [
+    {
+        "title": "Daily Journey",
+        "link": "https://github.com/q-ata/daily-journey",
+        "tech": "Django, Python, React, JS",
+        "image": dj,
+        "description": "Find a circular running route with Google Maps API."
+    },
     {
         "title": "Twotter",
         "link": "https://github.com/SlowestLoris/Twotter",
