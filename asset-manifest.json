@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f02f35f0.chunk.css",
-    "main.js": "/static/js/main.b0385c99.chunk.js",
-    "main.js.map": "/static/js/main.b0385c99.chunk.js.map",
+    "main.js": "/static/js/main.c9592bda.chunk.js",
+    "main.js.map": "/static/js/main.c9592bda.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.823c2495.js",
     "runtime-main.js.map": "/static/js/runtime-main.823c2495.js.map",
     "static/js/2.fbabd803.chunk.js": "/static/js/2.fbabd803.chunk.js",
@@ -17,14 +17,15 @@
     "static/media/SSR_TSRPT.7180776b.pdf": "/static/media/SSR_TSRPT.7180776b.pdf",
     "static/media/Twotter-logo.e5bea932.png": "/static/media/Twotter-logo.e5bea932.png",
     "static/media/ab.f5a876a3.png": "/static/media/ab.f5a876a3.png",
+    "static/media/dailyjourney.f353d56f.jpg": "/static/media/dailyjourney.f353d56f.jpg",
     "static/media/github.4c3b0f02.png": "/static/media/github.4c3b0f02.png",
-    "static/media/resume2021-1.0aff3a5c.pdf": "/static/media/resume2021-1.0aff3a5c.pdf",
+    "static/media/resume2021-1.3c5a1d01.pdf": "/static/media/resume2021-1.3c5a1d01.pdf",
     "static/media/slow loris.44c43022.png": "/static/media/slow loris.44c43022.png"
   },
   "entrypoints": [
     "static/js/runtime-main.823c2495.js",
     "static/js/2.fbabd803.chunk.js",
     "static/css/main.f02f35f0.chunk.css",
-    "static/js/main.b0385c99.chunk.js"
+    "static/js/main.c9592bda.chunk.js"
   ]
 }
